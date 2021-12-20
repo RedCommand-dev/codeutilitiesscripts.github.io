@@ -45,7 +45,33 @@
     
     <article>
     <h1 class="center underline bold">Events</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga adipisci quis eveniet unde a repudiandae. Iure hic perspiciatis odit nesciunt soluta optio voluptatibus in odio, officia maxime sint laborum tenetur iste? Soluta ducimus voluptatibus perferendis ut impedit ea iste, harum voluptate reiciendis doloremque quibusdam assumenda! Unde nemo voluptatibus eveniet, voluptatum corporis velit rerum quo laboriosam nihil facilis commodi illo dolor et ipsum dicta libero nulla magnam delectus autem natus?</p>
+    <p>In the order specified in <a href="https://github.com/CodeUtilities/CodeUtilities/blob/3.0-scripting-changes/common/src/main/java/io/github/codeutilities/scripts/event/ScriptEventType.java">here</a>.</p>
+    <h2>SendChat</h2>
+    <p>Called when the player sends a message into the chat.</p>
+    <p>Sets the message variable to the message sent.</p>
+    <h2>ReceiveChat</h2>
+    <p>Called when the player receives a message from the server.</p>
+    <p>Sets the message variable to the message received.</p>
+    <h2>KeyPress</h2>
+    <p>Called when the player presses a key.</p>
+    <p>Sets the key variable to the key pressed.</p>
+    <h2>KeyRelease</h2>
+    <p>Called when the player releases a key.</p>
+    <p>Sets the key variable to the key released.</p>
+    <h2>Tick</h2>
+    <p>Called every tick.</p>
+    <h2>Init</h2>
+    <p>Called when the script is loaded.</p>
+    <h2>RegisterCmds</h2>
+    <p>Called whenever commands are supposed to be registered.</p>
+    <h2>SendCommand</h2>
+    <p>Called when the player sends a command.</p>
+    <p>Sets the command variable to the entire command sent with the slash removed. Only meant for commands that are registered via scripts.</p>
+    <h2>Finalize</h2>
+    <p>Called when the script is unloaded.</p>
+    <h2>RenderGui</h2>
+    <p>"Called when a gui is being rendered.</p>
+    <p>Sets screenWidth and screenHeight</p>
     </article>
 </body>
 </html>
